@@ -7,17 +7,27 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 75px;
+    flex-direction: column;
 }
 
 .square {
-    width: 6.25%;
-    padding-bottom: 6.25%;
     border: solid 1px black;
+    display: flex;
 }
 
 #container {
     width: 500px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+button {
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: 0;
 }
