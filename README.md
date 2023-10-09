@@ -1,0 +1,1 @@
+Made an Etch-A-Sketch pad. This really tested my DOM Manipulation skills but it worked out in the end :)
